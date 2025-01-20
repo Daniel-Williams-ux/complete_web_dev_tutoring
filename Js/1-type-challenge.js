@@ -13,13 +13,14 @@ function stringToNumber(input) {
   }
   return number;
 }
-// let result1 = stringToNumber('John')
-// let result2 = stringToNumber("123");
-// let result3 = stringToNumber("40.64");
-
-// console.log(result1);
-// console.log(result2);
-// console.log(result3);
+console.log(stringToNumber('4'));       // 4
+console.log(stringToNumber('H'));       // Not a number
+console.log(stringToNumber(4));         // 4
+console.log(stringToNumber(' '));       // 0
+console.log(stringToNumber(null));      // 0
+console.log(stringToNumber(true));      // 1
+console.log(stringToNumber([]));        // 0
+console.log(stringToNumber({}));        // Not a number
 
 /*
 Task 2:
